@@ -3,8 +3,6 @@ import sqlite3 as lite
 
 def main():
     
-    con = None
-    
     con = lite.connect('pets.db')
     
     cur = con.cursor()
